@@ -1,10 +1,10 @@
-## AWS S3 OTA Update HTTPS para ESP32
+## AWS S3 OTA Update HTTPS para Arduino com ESP32
 Inspirado em:
 [AWS_S3_OTA_Update](https://github.com/espressif/arduino-esp32/blob/master/libraries/Update/examples/AWS_S3_OTA_Update/AWS_S3_OTA_Update.ino) e em
 [httpUpdateSecure](https://github.com/espressif/arduino-esp32/blob/master/libraries/HTTPUpdate/examples/httpUpdateSecure/httpUpdateSecure.ino)
 
 ### Propósito
-Executar uma atualização OTA no ESP32 de um arquivo localizado no Amazon S3 usando HTTPS
+Executar uma atualização OTA no ESP32 de um arquivo localizado no Amazon S3 usando HTTPS com framework arduino-esp32
 
 ### Preparando o arquivo na Amazon S3
 1. Faça o upload do arquivo binário para sua conta do Amazon S3, em um bucket de sua escolha
